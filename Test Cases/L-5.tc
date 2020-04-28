@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Czy wpisując poprawne dane logowania i klikając w CTA Button Login użytkownik może zalogować się do aplikacji</description>
+   <name>L-5</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>06bd9115-6a39-45e2-8d97-0ad6cd7b58d1</testCaseGuid>
+</TestCaseEntity>
