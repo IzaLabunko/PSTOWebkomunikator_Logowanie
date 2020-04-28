@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Czy po wejściu na stronę główną aplikacji wyświetla się formularz do logowania</description>
+   <name>L-1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de0d4cda-102f-4cb2-9bef-0df3ed5fe093</testCaseGuid>
+</TestCaseEntity>
