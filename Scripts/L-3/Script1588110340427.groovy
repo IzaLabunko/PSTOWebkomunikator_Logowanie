@@ -15,11 +15,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+// Sprawdza, czy po wejściu na stronę główną aplikacji wyświetla się formularz do logowania
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/')
 
 WebUI.maximizeWindow()
+
+//TestObject zdefiniowany po id
 
 WebUI.sendKeys(findTestObject('Nazwa użytkownika'), 'Iza')
 

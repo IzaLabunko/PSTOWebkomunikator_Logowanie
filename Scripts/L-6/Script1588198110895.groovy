@@ -15,6 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+//Sprawdzam czy nie wpisując danych we wszystkie pola logowania użytkownik może zalogować się do aplikacji
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/')

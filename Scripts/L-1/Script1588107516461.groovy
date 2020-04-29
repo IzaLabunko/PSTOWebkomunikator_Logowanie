@@ -15,6 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+//Sprawdzam, czy po wejściu na stronę główną aplikacji wyświetla się formularz do logowania
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/')
@@ -26,6 +28,8 @@ WebUI.sendKeys(findTestObject('Nazwa użytkownika'), 'Iza')
 WebUI.sendKeys(findTestObject('Hasło'), 'ilabunko')
 
 WebUI.click(findTestObject('Button Login'))
+
+//Weryfikuję czy zalogowany użytkownik po wylogowaniu otrzymuje widok formularza logowania. Poprawne logowanie jest zweryfikowane widokiem Historii rozmów, zdefiniowanym przez element na stronie
 
 WebUI.verifyElementVisible(findTestObject('Historia rozmów'))
 

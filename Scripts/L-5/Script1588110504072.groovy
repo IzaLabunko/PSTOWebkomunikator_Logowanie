@@ -15,11 +15,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+//Sprawdzam, czy nie mając założonego konta użytkownik może zalogować się do aplikacji
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/')
 
 WebUI.maximizeWindow()
+
+//Tworzę dwie zmienne do logowania i loginu z danymi, które nie znajdują się w bazie zarejestrowanych użytkowników
 
 WebUI.sendKeys(findTestObject('Nazwa użytkownika'), varLogin)
 
