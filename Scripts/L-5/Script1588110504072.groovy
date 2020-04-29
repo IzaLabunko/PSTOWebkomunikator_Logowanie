@@ -27,9 +27,9 @@ WebUI.sendKeys(findTestObject('Hasło'), varPassword)
 
 WebUI.click(findTestObject('Button Login'))
 
-WebUI.takeScreenshot()
+WebUI.acceptAlert()
 
-WebUI.verifyElementVisible(findTestObject('Historia rozmów'))
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 
