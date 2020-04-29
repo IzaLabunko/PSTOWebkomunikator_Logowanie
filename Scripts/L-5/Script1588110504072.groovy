@@ -27,9 +27,9 @@ WebUI.sendKeys(findTestObject('Hasło'), varPassword)
 
 WebUI.click(findTestObject('Button Login'))
 
-WebUI.acceptAlert()
+WebUI.verifyAlertPresent(0)
 
-WebUI.takeScreenshot()
+WebUI.verifyElementVisible(findTestObject('Text Link Zajestruj konto'))
 
 WebUI.closeBrowser()
 
