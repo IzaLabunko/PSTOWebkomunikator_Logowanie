@@ -21,17 +21,15 @@ WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/')
 
 WebUI.maximizeWindow()
 
-WebUI.sendKeys(findTestObject('Nazwa użytkownika'), '')
+WebUI.sendKeys(findTestObject('Nazwa użytkownika'), varLogin)
 
-WebUI.sendKeys(findTestObject('Hasło'), '')
+WebUI.sendKeys(findTestObject('Hasło'), varPassword)
 
 WebUI.click(findTestObject('Button Login'))
 
+WebUI.takeScreenshot()
+
 WebUI.verifyElementVisible(findTestObject('Historia rozmów'))
-
-WebUI.click(findTestObject('Wyloguj'))
-
-WebUI.verifyElementVisible(findTestObject('Button Login'))
 
 WebUI.closeBrowser()
 

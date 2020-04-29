@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>06bd9115-6a39-45e2-8d97-0ad6cd7b58d1</testCaseGuid>
+   <variable>
+      <defaultValue>'krokodyldundeee'</defaultValue>
+      <description></description>
+      <id>01ecbf20-024c-48be-8d98-f5da920ae023</id>
+      <masked>false</masked>
+      <name>varLogin</name>
+   </variable>
+   <variable>
+      <defaultValue>'coludziepowiedza1'</defaultValue>
+      <description></description>
+      <id>45dc92d9-5f56-4acf-a27b-20a0783a8b31</id>
+      <masked>false</masked>
+      <name>varPassword</name>
+   </variable>
 </TestCaseEntity>
