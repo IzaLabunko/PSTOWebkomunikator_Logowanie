@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>danepozabaza</name>
+   <name>poprawnedanetestowe</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'KrokodylDundee'</initValue>
-      <name>unikalnyuzytkownik</name>
+      <initValue>'Iza'</initValue>
+      <name>Login</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'przypadekniesadze1'</initValue>
-      <name>unikalnehaslo</name>
+      <initValue>'ilabunko'</initValue>
+      <name>Haslo</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

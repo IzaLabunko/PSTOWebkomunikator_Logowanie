@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-// Sprawdza, czy po wejściu na stronę główną aplikacji wyświetla się formularz do logowania
+// Sprawdza, czy użytkownik może się zalogować wpisując tylko poprawną Nazwę użytkownika
 
 WebUI.openBrowser('')
 
@@ -24,7 +24,8 @@ WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/')
 WebUI.maximizeWindow()
 
 //TestObject zdefiniowany po id.
-//Zmienna Login
+
+//Zmienna Login - ie wykorzystane w tym przypadku testowym
 
 String Login = "Iza"
 
@@ -36,13 +37,15 @@ String Haslo = "ilabunko"
 
 println(Haslo)
 
-WebUI.sendKeys(findTestObject('Nazwa użytkownika'), Login)
+WebUI.sendKeys(findTestObject('Nazwa użytkownika'),"")
 
 WebUI.sendKeys(findTestObject('Hasło'), Haslo)
 
 WebUI.click(findTestObject('Button Login'))
 
-WebUI.verifyElementVisible(findTestObject('Historia rozmów'))
+WebUI.verifyAlertPresent(0)
+
+WebUI.verifyElementVisible(findTestObject('Text Link Zajestruj konto'))
 
 WebUI.closeBrowser()
 
