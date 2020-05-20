@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Czy użytkownik może się zalogować wpisując poprawną Nazwę Użytkownika i błędne Hasło</description>
+   <description>Czy użytkownik może się zalogować wpisując błędną Nazwę Użytkownika  i poprawne Hasło</description>
    <name>L-10</name>
    <tag></tag>
    <comment></comment>
