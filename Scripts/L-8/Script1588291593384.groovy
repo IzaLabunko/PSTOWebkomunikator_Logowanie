@@ -23,25 +23,18 @@ WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/')
 
 WebUI.maximizeWindow()
 
+//Zmienna globalna Poprawny Login
+println(GlobalVariable.ValidLogin)
+
+//Zmienna globalna Haslo
+println(GlobalVariable.ValidPass)
+
 //TestObject zdefiniowany po id.
-
-//Zmienna Login - ie wykorzystane w tym przypadku testowym
-
-String Login = "Iza"
-
-println(Login)
-
-//Zmienna Haslo
-
-String Haslo = "ilabunko"
-
-println(Haslo)
-
-WebUI.sendKeys(findTestObject('Nazwa użytkownika'),"")
-
-WebUI.sendKeys(findTestObject('Hasło'), Haslo)
+WebUI.setText(findTestObject('Hasło'), GlobalVariable.ValidPass)
 
 WebUI.click(findTestObject('Button Login'))
+
+//Weryfikuję czy wyswietla się spodziewany widok pop-up alertu oraz widok formularza logowania
 
 WebUI.verifyAlertPresent(0)
 

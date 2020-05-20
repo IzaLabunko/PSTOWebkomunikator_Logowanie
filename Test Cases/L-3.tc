@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Czy po wejściu na stronę główną aplikacji wyświetla się formularz do logowania</description>
+   <description>Czy wpisując poprawne dane logowania i klikając w CTA Button Login użytkownik może zalogować się do aplikacji</description>
    <name>L-3</name>
    <tag></tag>
    <comment></comment>

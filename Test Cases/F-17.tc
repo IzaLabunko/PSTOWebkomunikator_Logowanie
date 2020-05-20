@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Czy użytkownik może się zalogować kilka razy tym samym imieniem i nazwiskiem, ale unikalnym loginem</description>
+   <name>F-17</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ececd81e-49d0-4136-bca1-0c1d01cf2691</testCaseGuid>
+</TestCaseEntity>

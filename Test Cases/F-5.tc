@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Czy użytkownik może się zalogować wpisując poprawne dane do logowania ujęte w specyfikacji</description>
+   <name>F-5</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4025586-9f61-4f16-a259-b402fd56a891</testCaseGuid>
+</TestCaseEntity>

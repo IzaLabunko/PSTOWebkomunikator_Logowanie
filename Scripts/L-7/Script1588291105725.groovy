@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-// Sprawdza, czy użytkownik może się zalogować wpisując tylko poprawne Hasło
+// Sprawdza, czy użytkownik może się zalogować wpisując tylko poprawną Nazwę użytkownika
 
 WebUI.openBrowser('')
 
@@ -23,25 +23,18 @@ WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/')
 
 WebUI.maximizeWindow()
 
+//Zmienna globalna Poprawny Login
+println(GlobalVariable.ValidLogin)
+
+//Zmienna globalna Haslo
+println(GlobalVariable.ValidPass)
+
 //TestObject zdefiniowany po id.
-
-//Zmienna Login - nie wykorzystane w tym przypadku testowym
-
-String Login = "Iza"
-
-println(Login)
-
-//Zmienna Haslo
-
-String Haslo = "ilabunko"
-
-println(Haslo)
-
-WebUI.sendKeys(findTestObject('Nazwa użytkownika'), Login)
-
-WebUI.sendKeys(findTestObject('Hasło'), "")
+WebUI.setText(findTestObject('Nazwa użytkownika'), GlobalVariable.ValidLogin)
 
 WebUI.click(findTestObject('Button Login'))
+
+//Weryfikuję czy wyswietla się spodziewany widok pop-up alertu oraz widok formularza logowania
 
 WebUI.verifyAlertPresent(0)
 

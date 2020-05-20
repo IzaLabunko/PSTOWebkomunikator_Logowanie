@@ -31,6 +31,8 @@ WebUI.sendKeys(findTestObject('Hasło'), varPassword)
 
 WebUI.click(findTestObject('Button Login'))
 
+//Weryfikuję czy wyswietla się spodziewany widok pop-up alertu oraz widok formularza logowania
+
 WebUI.verifyAlertPresent(0)
 
 WebUI.verifyElementVisible(findTestObject('Text Link Zajestruj konto'))

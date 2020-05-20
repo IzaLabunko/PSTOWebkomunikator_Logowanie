@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Czy po wejściu na stronę główną aplikacji wyświetla się formularz do logowania</description>
+   <description>Czy użytkownik może się zalogować wpisując tylko poprawną Nazwę użytkownika</description>
    <name>L-7</name>
    <tag></tag>
    <comment></comment>

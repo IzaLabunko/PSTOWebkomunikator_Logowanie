@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Czy użytkownik może się zalogować wpisując poprawną Nazwę Użytkownika i błędne Hasło</description>
+   <name>L-10</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af157cfe-0098-4d46-ac56-1a3e41a74230</testCaseGuid>
+   <variable>
+      <defaultValue>'Azi'</defaultValue>
+      <description></description>
+      <id>1d5dcb5e-780c-48ca-ae75-8dc6b10fe319</id>
+      <masked>false</masked>
+      <name>varLogin</name>
+   </variable>
+   <variable>
+      <defaultValue>'ilabunko'</defaultValue>
+      <description></description>
+      <id>192d64a6-9ab1-4de6-9ce8-aca2688e8599</id>
+      <masked>false</masked>
+      <name>varPassword</name>
+   </variable>
+</TestCaseEntity>

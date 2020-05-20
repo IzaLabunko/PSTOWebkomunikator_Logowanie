@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Invalidloggs</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator>SEMICOLON</csvSeperator>
+   <dataFileGUID>bd67c801-9218-4647-9739-771141c161cc</dataFileGUID>
+   <dataSourceUrl>C:\Users\Cassiz\Desktop\Bazy danych\Invalid data.csv</dataSourceUrl>
+   <driver>CSV</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

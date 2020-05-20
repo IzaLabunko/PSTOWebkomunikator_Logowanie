@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Czy wpisując tylko nazwę użytkownika i hasło użytkownik może utworzyć konto</description>
+   <name>F-6</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7a64ab9-3df6-4511-bfc0-8cb4c7e47c28</testCaseGuid>
+</TestCaseEntity>

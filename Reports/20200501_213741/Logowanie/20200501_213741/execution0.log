@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-05-01T21:37:52</date>
+  <millis>1588361872672</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Logowanie</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Logowanie</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Logowanie</property>
+</record>
+<record>
+  <date>2020-05-01T21:37:52</date>
+  <millis>1588361872705</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Cassiz - LAPTOP-HT1PRHJP</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Cassiz - LAPTOP-HT1PRHJP</property>
+</record>
+<record>
+  <date>2020-05-01T21:37:52</date>
+  <millis>1588361872709</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2020-05-01T21:37:52</date>
+  <millis>1588361872710</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.160</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.0.160</property>
+</record>
+<record>
+  <date>2020-05-01T21:37:52</date>
+  <millis>1588361872724</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.2.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.2.1.1</property>
+</record>
+<record>
+  <date>2020-05-01T21:37:53</date>
+  <millis>1588361873751</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/L-9</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/L-9</property>
+  <property name="description">Czy nie maj\u0105c za\u0142o\u017Conego konta u\u017Cytkownik mo\u017Ce zalogowa\u0107 si\u0119 do aplikacji</property>
+  <property name="id">Test Cases/L-9</property>
+  <property name="source">C:\\Users\\Cassiz\\git\\PSTOWebkomunikator_Logowanie\\Test Cases\\L-9.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-05-01T21:37:53</date>
+  <millis>1588361873807</millis>
+  <sequence>6</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/L-9</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

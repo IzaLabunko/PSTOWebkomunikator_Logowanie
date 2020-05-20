@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Logowanie</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>d6174bfd-f58e-4b9e-8e7b-d5e3ad75bff0</testSuiteGuid>
+   <testCaseLink>
+      <guid>056482b8-678d-4cf6-9ba8-c45035435458</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/L-10</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>85c78d64-12ed-4320-a703-0187346d98ca</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Invalidloggs</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>85c78d64-12ed-4320-a703-0187346d98ca</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>﻿Login</value>
+         <variableId>1d5dcb5e-780c-48ca-ae75-8dc6b10fe319</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>192d64a6-9ab1-4de6-9ce8-aca2688e8599</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>40cc2603-1d3d-4f24-b58e-41aa5be16649</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/L-9</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4de5fed1-b422-495f-914a-9bf69405d03e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Invalidloggs</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>009984db-56a1-4d76-a074-1222c5c81488</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4de5fed1-b422-495f-914a-9bf69405d03e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Haslo</value>
+         <variableId>9dbcbfcc-ceb0-4125-aa5b-54d9964b549f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

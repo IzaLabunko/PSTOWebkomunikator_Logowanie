@@ -6,12 +6,16 @@
    <elementGuidId>0202989d-d5a4-48c9-8430-05da3ee1decc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[@id='mainFooter1']/p/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
          <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[2]/p/a</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,6 +24,12 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
-      <value>/html/body/div[1]/div[2]/p/a</value>
+      <value>//a[contains(text(),'Zarejestruj konto')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//a[contains(@href, 'register.html')]</value>
    </webElementXpaths>
 </WebElementEntity>

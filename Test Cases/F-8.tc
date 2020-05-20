@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Czy użytkownik może zarejestrować konto wpisując w pole Hasło ciąg dowolnych znaków zawierający mniej niż 5 znaków</description>
+   <name>F-8</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>89fa0915-c166-48a3-a56d-f4f0bda76c0c</testCaseGuid>
+</TestCaseEntity>

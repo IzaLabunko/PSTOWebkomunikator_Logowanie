@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>poprawnedanetestowe</name>
+   <name>Poprawny kod grupy</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Iza'</initValue>
-      <name>Login</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'ilabunko'</initValue>
-      <name>Haslo</name>
+      <initValue>'wsbpstogrupaVI'</initValue>
+      <name>ValidKodGrupy</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

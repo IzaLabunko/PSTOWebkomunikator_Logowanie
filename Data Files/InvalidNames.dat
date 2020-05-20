@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Imię i Nazwisko niezgodnie ze specyfikacją [a-zA-Z] - dodane polskie znaki i znaki specjalne</description>
+   <name>InvalidNames</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>672e87a6-9114-4dab-86c3-c7b2ef69f02f</dataFileGUID>
+   <dataSourceUrl>C:\Users\Cassiz\git\PSTOWebkomunikator_Logowanie\Data Files\NiepoprawneImieNazwisko.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Arkusz1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

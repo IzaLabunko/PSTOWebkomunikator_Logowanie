@@ -16,32 +16,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 // Sprawdza, czy po wejściu na stronę główną aplikacji wyświetla się formularz do logowania
-
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/')
 
 WebUI.maximizeWindow()
 
+//Zmienna globalna Poprawny Login
+println(GlobalVariable.ValidLogin)
+
+//Zmienna globalna Haslo
+println(GlobalVariable.ValidPass)
+
 //TestObject zdefiniowany po id.
-//Zmienna Login
+WebUI.setText(findTestObject('Nazwa użytkownika'), GlobalVariable.ValidLogin)
 
-String Login = "Iza"
-
-println(Login)
-
-//Zmienna Haslo
-
-String Haslo = "ilabunko"
-
-println(Haslo)
-
-WebUI.sendKeys(findTestObject('Nazwa użytkownika'), Login)
-
-WebUI.sendKeys(findTestObject('Hasło'), Haslo)
+WebUI.setText(findTestObject('Hasło'), GlobalVariable.ValidPass)
 
 WebUI.click(findTestObject('Button Login'))
 
+//Weryfikuję czy wyswietla się spodziewany widok Historii rozmów po zalogowaniu
 WebUI.verifyElementVisible(findTestObject('Historia rozmów'))
 
 WebUI.closeBrowser()
